@@ -1,17 +1,4 @@
 GIT
-  remote: git://github.com/railsdog/spree_avatax_certified.git
-  revision: e267203afdc30eb8db1e67d642681f9cf713dbcc
-  specs:
-    spree_avatax (0.1.0)
-      addressable
-      json
-      logging
-      psych (~> 2.0.4)
-      rest-client
-      spree_core (~> 2.1)
-      yettings
-
-GIT
   remote: https://github.com/spree/spree_auth_devise.git
   revision: 77e167f209d08a7da65b9e98b3cc1df269e0b084
   branch: 2-3-stable
@@ -31,6 +18,26 @@ GIT
   specs:
     spree_gateway (2.3.0.beta)
       spree_core (~> 2.3.0)
+
+PATH
+  remote: ~/Assets/gems/avalara
+  specs:
+    avalara (0.0.3)
+      hashie
+      httparty
+      multi_json
+
+PATH
+  remote: ~/Assets/gems/spree_avatax_certified
+  specs:
+    spree_avatax (0.1.0)
+      addressable
+      json
+      logging
+      psych (~> 2.0.4)
+      rest-client
+      spree_core (~> 2.1)
+      yettings
 
 GEM
   remote: https://rubygems.org/
@@ -76,10 +83,6 @@ GEM
       activerecord (>= 3.0)
     addressable (2.3.6)
     arel (5.0.1.20140414130214)
-    avalara (0.0.3)
-      hashie
-      httparty
-      multi_json
     awesome_nested_set (3.0.1)
       activerecord (>= 4.0.0, < 5)
     aws-sdk (1.27.0)
@@ -311,7 +314,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  avalara
+  avalara!
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails

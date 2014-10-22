@@ -1,2 +1,5 @@
 # Logfile created on 2014-10-22 14:09:57 -0400 by logger.rb/44203
 I, [2014-10-22T14:09:57.417810 #35874]  INFO -- order class: start order processing
+I, [2014-10-22T14:14:44.274511 #36089]  INFO -- order class: start order processing
+I, [2014-10-22T14:14:56.855786 #36097]  INFO -- order class: start order processing
+I, [2014-10-22T14:18:42.027557 #36147]  INFO -- order class: start order processing

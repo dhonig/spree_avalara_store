@@ -1,2 +1,5 @@
 # Logfile created on 2014-10-22 14:09:57 -0400 by logger.rb/44203
 I, [2014-10-22T14:09:57.414221 #35874]  INFO -- tax_service: call to tax service
+I, [2014-10-22T14:14:44.272923 #36089]  INFO -- tax_service: call to tax service
+I, [2014-10-22T14:14:56.854280 #36097]  INFO -- tax_service: call to tax service
+I, [2014-10-22T14:18:42.025114 #36147]  INFO -- tax_service: call to tax service

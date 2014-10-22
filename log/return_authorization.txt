@@ -1,2 +1,5 @@
 # Logfile created on 2014-10-22 14:09:57 -0400 by logger.rb/44203
 I, [2014-10-22T14:09:57.436163 #35874]  INFO -- ReturnAuthorization class: start ReturnAuthorization processing
+I, [2014-10-22T14:14:44.283874 #36089]  INFO -- ReturnAuthorization class: start ReturnAuthorization processing
+I, [2014-10-22T14:14:56.871120 #36097]  INFO -- ReturnAuthorization class: start ReturnAuthorization processing
+I, [2014-10-22T14:18:42.037994 #36147]  INFO -- ReturnAuthorization class: start ReturnAuthorization processing
