@@ -1,4 +1,17 @@
 GIT
+  remote: git://github.com/railsdog/spree_avatax_certified.git
+  revision: e267203afdc30eb8db1e67d642681f9cf713dbcc
+  specs:
+    spree_avatax (0.1.0)
+      addressable
+      json
+      logging
+      psych (~> 2.0.4)
+      rest-client
+      spree_core (~> 2.1)
+      yettings
+
+GIT
   remote: https://github.com/spree/spree_auth_devise.git
   revision: 77e167f209d08a7da65b9e98b3cc1df269e0b084
   branch: 2-3-stable
@@ -61,6 +74,7 @@ GEM
       tzinfo (~> 1.1)
     acts_as_list (0.3.0)
       activerecord (>= 3.0)
+    addressable (2.3.6)
     arel (5.0.1.20140414130214)
     avalara (0.0.3)
       hashie
@@ -129,6 +143,10 @@ GEM
     kaminari (0.16.1)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
+    little-plugger (1.1.3)
+    logging (1.8.2)
+      little-plugger (>= 1.1.3)
+      multi_json (>= 1.8.4)
     mail (2.6.1)
       mime-types (>= 1.16, < 3)
     mime-types (2.4.3)
@@ -140,6 +158,7 @@ GEM
       i18n (>= 0.6.4, <= 0.7.0.dev)
     multi_json (1.10.1)
     multi_xml (0.5.5)
+    netrc (0.8.0)
     nokogiri (1.6.3.1)
       mini_portile (= 0.6.0)
     offsite_payments (2.0.1)
@@ -161,6 +180,7 @@ GEM
     polyamorous (1.1.0)
       activerecord (>= 3.0)
     polyglot (0.3.5)
+    psych (2.0.6)
     rabl (0.9.4.pre1)
       activesupport (>= 2.3.14)
     rack (1.5.2)
@@ -190,6 +210,9 @@ GEM
       polyamorous (~> 1.1)
     rdoc (4.1.2)
       json (~> 1.4)
+    rest-client (1.7.2)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
     sass (3.2.19)
     sass-rails (4.0.3)
       railties (>= 4.0.0, < 5.0)
@@ -282,6 +305,7 @@ GEM
       tzinfo
     warden (1.2.3)
       rack (>= 1.0)
+    yettings (0.1.1)
 
 PLATFORMS
   ruby
@@ -296,6 +320,7 @@ DEPENDENCIES
   sdoc (~> 0.4.0)
   spree (= 2.3.4)
   spree_auth_devise!
+  spree_avatax!
   spree_gateway!
   spring
   sqlite3
