@@ -5,7 +5,6 @@ require 'rails/all'
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
-Dotenv::Railtie.load
 
 module SpreeAvalaraStore
   class Application < Rails::Application
@@ -20,6 +19,7 @@ module SpreeAvalaraStore
       Dir.glob(File.join(File.dirname(__FILE__), "../app/overrides/*.rb")) do |c|
         Rails.configuration.cache_classes ? require(c) : load(c)
       end
+    Dotenv.load
     end
 
     # Settings in config/environments/* take precedence over those specified here.
