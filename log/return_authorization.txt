@@ -86,3 +86,8 @@ I, [2014-10-23T14:17:07.723633 #44833]  INFO -- ReturnAuthorization class: start
 I, [2014-10-23T14:20:57.332390 #44534]  INFO -- ReturnAuthorization class: start ReturnAuthorization processing
 I, [2014-10-23T14:21:45.936434 #44534]  INFO -- ReturnAuthorization class: start ReturnAuthorization processing
 I, [2014-10-23T14:25:14.360890 #44917]  INFO -- ReturnAuthorization class: start ReturnAuthorization processing
+I, [2014-10-23T14:51:09.115296 #44534]  INFO -- ReturnAuthorization class: start ReturnAuthorization processing
+I, [2014-10-23T14:51:32.935428 #45331]  INFO -- ReturnAuthorization class: start ReturnAuthorization processing
+I, [2014-10-23T14:52:25.582635 #45342]  INFO -- ReturnAuthorization class: start ReturnAuthorization processing
+I, [2014-10-23T14:52:29.766515 #45346]  INFO -- ReturnAuthorization class: start ReturnAuthorization processing
+I, [2014-10-23T14:52:37.429328 #45362]  INFO -- ReturnAuthorization class: start ReturnAuthorization processing
