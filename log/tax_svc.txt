@@ -83,3 +83,4 @@ I, [2014-10-23T14:51:32.914403 #45331]  INFO -- tax_service: call to tax service
 I, [2014-10-23T14:52:25.572405 #45342]  INFO -- tax_service: call to tax service
 I, [2014-10-23T14:52:29.756207 #45346]  INFO -- tax_service: call to tax service
 I, [2014-10-23T14:52:37.418811 #45362]  INFO -- tax_service: call to tax service
+I, [2014-10-23T15:18:40.895884 #45603]  INFO -- tax_service: call to tax service

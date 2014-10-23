@@ -91,3 +91,12 @@ I, [2014-10-23T14:51:32.916290 #45331]  INFO -- order class: start order process
 I, [2014-10-23T14:52:25.573914 #45342]  INFO -- order class: start order processing
 I, [2014-10-23T14:52:29.757693 #45346]  INFO -- order class: start order processing
 I, [2014-10-23T14:52:37.420354 #45362]  INFO -- order class: start order processing
+I, [2014-10-23T15:18:40.897383 #45603]  INFO -- order class: start order processing
+I, [2014-10-23T15:19:57.219882 #45603]  INFO -- order class: start order processing
+I, [2014-10-23T15:20:42.371744 #45603]  INFO -- order class: start order processing
+I, [2014-10-23T15:23:07.277941 #45603]  INFO -- order class: start order processing
+I, [2014-10-23T15:23:28.906262 #45603]  INFO -- order class: start order processing
+I, [2014-10-23T15:25:01.558510 #45603]  INFO -- order class: start order processing
+I, [2014-10-23T15:26:54.040489 #45603]  INFO -- order class: start order processing
+I, [2014-10-23T15:27:32.317841 #45603]  INFO -- order class: start order processing
+I, [2014-10-23T15:33:36.863560 #45603]  INFO -- order class: start order processing
