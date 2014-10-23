@@ -84,3 +84,15 @@ I, [2014-10-23T14:52:25.572405 #45342]  INFO -- tax_service: call to tax service
 I, [2014-10-23T14:52:29.756207 #45346]  INFO -- tax_service: call to tax service
 I, [2014-10-23T14:52:37.418811 #45362]  INFO -- tax_service: call to tax service
 I, [2014-10-23T15:18:40.895884 #45603]  INFO -- tax_service: call to tax service
+I, [2014-10-23T15:46:35.625320 #45879]  INFO -- tax_service: call to tax service
+I, [2014-10-23T16:19:23.265636 #51717]  INFO -- tax_service: call to tax service
+I, [2014-10-23T17:31:37.039194 #52195]  INFO -- tax_service: call to tax service
+I, [2014-10-23T17:32:17.996224 #52211]  INFO -- tax_service: call to tax service
+I, [2014-10-23T17:39:33.934269 #52458]  INFO -- tax_service: call to tax service
+I, [2014-10-23T17:45:25.627737 #52578]  INFO -- tax_service: call to tax service
+I, [2014-10-23T17:56:21.444359 #52694]  INFO -- tax_service: call to tax service
+I, [2014-10-23T17:57:37.013862 #52749]  INFO -- tax_service: call to tax service
+I, [2014-10-23T17:57:45.839416 #52765]  INFO -- tax_service: call to tax service
+I, [2014-10-23T17:57:52.051441 #52777]  INFO -- tax_service: call to tax service
+I, [2014-10-23T17:59:43.164999 #52838]  INFO -- tax_service: call to tax service
+I, [2014-10-23T17:59:51.363180 #52853]  INFO -- tax_service: call to tax service
