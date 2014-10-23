@@ -6,9 +6,7 @@
 # In order to initialize a setting do:
 # config.setting_name = 'new value'
 Spree.config do |config|
-  # Example:
-  # Uncomment to stop tracking inventory levels in the application
-  # config.track_inventory_levels = false
+  config.endpoint = 'development.avalara.net'
 end
 
 Spree.user_class = "Spree::User"

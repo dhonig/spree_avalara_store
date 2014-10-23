@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141022171593) do
+ActiveRecord::Schema.define(version: 20141022210455) do
 
   create_table "spree_addresses", force: true do |t|
     t.string   "firstname"
@@ -75,6 +75,41 @@ ActiveRecord::Schema.define(version: 20141022171593) do
 
   add_index "spree_assets", ["viewable_id"], name: "index_assets_on_viewable_id"
   add_index "spree_assets", ["viewable_type", "type"], name: "index_assets_on_viewable_type_and_type"
+
+  create_table "spree_avalara_cart_items", force: true do |t|
+    t.integer  "index"
+    t.integer  "tax_code"
+    t.string   "sku"
+    t.integer  "quantity"
+    t.decimal  "price",                  precision: 8, scale: 5, default: 0.0
+    t.decimal  "amount",                 precision: 8, scale: 5, default: 0.0
+    t.decimal  "ship_total",             precision: 8, scale: 5, default: 0.0
+    t.integer  "line_item_id"
+    t.integer  "avalara_transaction_id"
+    t.string   "type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "spree_avalara_cart_items", ["avalara_transaction_id"], name: "index_spree_avalara_cart_items_on_avalara_transaction_id"
+  add_index "spree_avalara_cart_items", ["line_item_id"], name: "index_spree_avalara_cart_items_on_line_item_id"
+
+  create_table "spree_avalara_transactions", force: true do |t|
+    t.integer  "order_id"
+    t.string   "message"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "return_authorization_id"
+  end
+
+  add_index "spree_avalara_transactions", ["order_id"], name: "index_spree_avalara_transactions_on_order_id"
+
+  create_table "spree_avalara_use_code_items", force: true do |t|
+    t.string   "use_code"
+    t.string   "use_code_description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "spree_calculators", force: true do |t|
     t.string   "type"
@@ -565,6 +600,7 @@ ActiveRecord::Schema.define(version: 20141022171593) do
     t.string   "tracking_url"
     t.string   "admin_name"
     t.integer  "tax_category_id"
+    t.string   "tax_use_code"
   end
 
   add_index "spree_shipping_methods", ["deleted_at"], name: "index_spree_shipping_methods_on_deleted_at"
@@ -792,15 +828,15 @@ ActiveRecord::Schema.define(version: 20141022171593) do
   add_index "spree_trackers", ["active"], name: "index_spree_trackers_on_active"
 
   create_table "spree_users", force: true do |t|
-    t.string   "encrypted_password",     limit: 128
-    t.string   "password_salt",          limit: 128
+    t.string   "encrypted_password",             limit: 128
+    t.string   "password_salt",                  limit: 128
     t.string   "email"
     t.string   "remember_token"
     t.string   "persistence_token"
     t.string   "reset_password_token"
     t.string   "perishable_token"
-    t.integer  "sign_in_count",                      default: 0, null: false
-    t.integer  "failed_attempts",                    default: 0, null: false
+    t.integer  "sign_in_count",                              default: 0, null: false
+    t.integer  "failed_attempts",                            default: 0, null: false
     t.datetime "last_request_at"
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
@@ -815,8 +851,12 @@ ActiveRecord::Schema.define(version: 20141022171593) do
     t.datetime "reset_password_sent_at"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "spree_api_key",          limit: 48
+    t.string   "spree_api_key",                  limit: 48
     t.datetime "remember_created_at"
+    t.string   "customer_code"
+    t.string   "use_code"
+    t.string   "exemption_number"
+    t.integer  "spree_avalara_use_code_item_id"
   end
 
   add_index "spree_users", ["email"], name: "email_idx_unique", unique: true
