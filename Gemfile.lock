@@ -37,7 +37,6 @@ PATH
       psych (~> 2.0.4)
       rest-client
       spree_core (~> 2.1)
-      yettings
 
 GEM
   remote: https://rubygems.org/
@@ -313,7 +312,6 @@ GEM
       tzinfo
     warden (1.2.3)
       rack (>= 1.0)
-    yettings (0.1.1)
 
 PLATFORMS
   ruby
