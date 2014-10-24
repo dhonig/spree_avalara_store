@@ -1,3 +1,0 @@
-username: ENV['AVALARA_USERNAME']
-password: ENV['AVALARA_PASSWORD']
-endpoint: ENV['AVALARA_ENDPOINT']
