@@ -3,4 +3,3 @@ Avalara.configure do |config|
   config.password = ENV['AVALARA_PASSWORD']
   config.endpoint = "https://development.avalara.net"
 end
-
