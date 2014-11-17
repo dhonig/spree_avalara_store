@@ -30,13 +30,14 @@ PATH
 PATH
   remote: ~/Assets/gems/spree_avatax_certified
   specs:
-    spree_avatax (0.2.0)
-      addressable
-      json
-      logging
+    spree_avatax_certified (0.2.0)
+      addressable (~> 2.3)
+      json (~> 1.7)
+      logging (~> 1.8)
       psych (~> 2.0.4)
-      rest-client
-      spree_core (~> 2.1)
+      rest-client (~> 1.7)
+      spree_backend (~> 2.3)
+      spree_core (~> 2.3)
 
 GEM
   remote: https://rubygems.org/
@@ -391,7 +392,7 @@ DEPENDENCIES
   shoulda-matchers
   spree (= 2.3.4)
   spree_auth_devise!
-  spree_avatax!
+  spree_avatax_certified!
   spree_gateway!
   spring
   sqlite3

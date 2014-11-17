@@ -9,4 +9,4 @@
 //= require spree/frontend
 
 //= require_tree .
-//= require spree/frontend/spree_avatax
+//= require spree/frontend/spree_avatax_certified
